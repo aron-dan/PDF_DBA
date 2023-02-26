@@ -13,7 +13,7 @@
   //$conn = new PDO("mysql:host=$host;dbname=", $dbname,$user,$pass);
 
   //Mensagem para saber se a conexão foi estabbelecida 
-  echo "SUCESSO!!";
+  //echo "SUCESSO!!";
  } catch(PDOException$err){
   echo "Conexão com Banco de dados falhou!!", $err->getMessage();
  }
